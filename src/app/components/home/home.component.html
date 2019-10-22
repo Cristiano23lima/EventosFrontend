@@ -1,0 +1,12 @@
+<div class="row mt-5">
+  <div class="col-md-3 mb-4" *ngFor="let evento of eventos">
+    <mat-card>
+        <img matCardImage src="{{evento.endImagem}}" class="img-evento-principal">
+        <mat-card-content>
+            <a class="link"[routerLink]="['/eventos', evento.id+'-'+evento.titulo.replace(exp, '-')]"><h3>{{evento.titulo.substring(0, 10)}}<span *ngIf="evento.titulo.length > 10" >...</span></h3></a>
+            <p>Data: {{evento.data | date:'dd/MM/yyyy'}} as {{evento.data | date:'hh:mm'}}</p>
+            <p>Local: {{evento.local}}</p>
+        </mat-card-content>
+    </mat-card>
+  </div>
+</div>

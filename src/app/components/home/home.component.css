@@ -1,0 +1,11 @@
+.img-evento-principal{
+  position: relative;
+  width: 100%;
+  height: 180px;
+  margin: 0;
+}
+
+.link{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}

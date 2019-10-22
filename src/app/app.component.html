@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark menu bg-dark " *ngIf="currentUser">
+  <a class="navbar-brand" routerLink="/" >EventSimple</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/eventos">Eventos</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a mat-mini-fab aria-label="Sair" title="Sair" (click)="logout()" color="primary">
+          <mat-icon class="mat-18">exit_to_app</mat-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
