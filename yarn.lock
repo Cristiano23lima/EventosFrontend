@@ -314,13 +314,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@brunoc/ngx-viacep@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@brunoc/ngx-viacep/-/ngx-viacep-2.1.2.tgz#e8c2497219309df95ec3ded8149b9378eaa8f052"
-  integrity sha512-KHA3QSt2qhY1CIywBzpIKRQARNx9Kg5wvlEqsLy9BwEQfD9Z42+C1ZfA5u+BVL6IFDfBh6uwaADFOLT0Np5Gdw==
-  dependencies:
-    tslib "^1.9.0"
-
 "@fortawesome/angular-fontawesome@0.5.x":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/angular-fontawesome/-/angular-fontawesome-0.5.0.tgz#5dbc01714b4af45a2ecb8dd63a6f8b462a8337e1"
