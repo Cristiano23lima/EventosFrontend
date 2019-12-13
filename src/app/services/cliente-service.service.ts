@@ -10,6 +10,6 @@ export class ClienteServiceService {
   constructor(private http: HttpClient) { }
 
   pegarClientes(){
-    return this.http.get(`${environment.apiUrl}/cliente/cliente`);
+    return this.http.get(`${environment.apiUrl}/cliente`);
   }
 }
