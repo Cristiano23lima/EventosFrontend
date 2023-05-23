@@ -1,6 +1,6 @@
 # FrontendEventos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+Este projeto foi criado para estudar as funcionalidades básicas do framework Angular, a versão utilizada nesse projeto foi a "8.2.2".
 
 ## Development server
 
